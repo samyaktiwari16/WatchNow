@@ -75,7 +75,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://watchnow-frontend.onrender.com",
+    "https://watchnow-1.onrender.com",
 ]
 
 ROOT_URLCONF = 'WatchNow.urls'
