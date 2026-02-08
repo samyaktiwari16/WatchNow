@@ -1,5 +1,3 @@
-import Navbar from "./components/navbar"
-import Footer from "./components/footer"
 import './App.css'
 import Home from "./pages/Home"
 import Login from "./pages/Login"

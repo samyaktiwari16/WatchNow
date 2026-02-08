@@ -1,6 +1,5 @@
 import IconButton from "@mui/material/IconButton";  
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -14,7 +13,7 @@ function MovieCard({ movie }) {
       navigate("/login");
     }
     try{
-      await axios.post("http://127.0.0.1:8000/add/favourite/", { movie_id: movie.id}, {
+      await axios.post("https://watchnow-bjw4.onrender.com/add/favourite/", { movie_id: movie.id}, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -31,7 +30,7 @@ function MovieCard({ movie }) {
       navigate("/login");
     }
     try{
-      await axios.post("http://127.0.0.1:8000/add/watchlist/", { movie_id: movie.id}, {
+      await axios.post("https://watchnow-bjw4.onrender.com/add/watchlist/", { movie_id: movie.id}, {
         headers: {
           Authorization: `Bearer ${token}`
         }
