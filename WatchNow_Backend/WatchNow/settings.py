@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-x^88s#l$3$9+4fr%$^bwmpy=pok))w+1$#5d^qiyw+eo$zh-((
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://watchnow-bjw4.onrender.com"]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://your-backend.onrender.com"

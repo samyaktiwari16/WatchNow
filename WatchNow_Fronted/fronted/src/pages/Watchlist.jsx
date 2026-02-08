@@ -11,7 +11,7 @@ function Watchlist () {
   const token = localStorage.getItem("token");
   
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/watchlist/", {
+    axios.get("https://watchnow-bjw4.onrender.com/watchlist/", {
       headers: {
         Authorization: `Bearer ${token}`
       }

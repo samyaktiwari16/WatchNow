@@ -10,7 +10,7 @@ function Logout() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/logout/", {},
+        "https://watchnow-bjw4.onrender.com/logout/", {},
         {
           headers: {
             Authorization: `Bearer ${token}`,

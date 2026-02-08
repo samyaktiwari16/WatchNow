@@ -12,7 +12,7 @@ function Profile () {
       try {
         const token = localStorage.getItem("token");
 
-        const res = await axios.get("http://127.0.0.1:8000/profile/", {
+        const res = await axios.get("https://watchnow-bjw4.onrender.com/profile/", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

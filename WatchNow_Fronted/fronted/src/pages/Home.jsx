@@ -15,7 +15,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/")
+      .get("https://watchnow-bjw4.onrender.com")
       .then((res) => {
         // Expecting an array; fall back to empty array if unexpected
         setMovies(Array.isArray(res.data) ? res.data : []);
