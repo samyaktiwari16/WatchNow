@@ -13,7 +13,7 @@ function MovieCard({ movie }) {
       navigate("/login");
     }
     try{
-      await axios.post("https://watchnow-bjw4.onrender.com/add/favourite/", { movie_id: movie.id}, {
+      await axios.post("https://watchnow-316b.onrender.com/add/favourite/", { movie_id: movie.id}, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -30,7 +30,7 @@ function MovieCard({ movie }) {
       navigate("/login");
     }
     try{
-      await axios.post("https://watchnow-bjw4.onrender.com/add/watchlist/", { movie_id: movie.id}, {
+      await axios.post("https://watchnow-316b.onrender.com/add/watchlist/", { movie_id: movie.id}, {
         headers: {
           Authorization: `Bearer ${token}`
         }

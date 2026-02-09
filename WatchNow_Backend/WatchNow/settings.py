@@ -28,11 +28,7 @@ SECRET_KEY = 'django-insecure-x^88s#l$3$9+4fr%$^bwmpy=pok))w+1$#5d^qiyw+eo$zh-((
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://watchnow-bjw4.onrender.com"]
-
-CSRF_TRUSTED_ORIGINS = [
-    "https://your-backend.onrender.com"
-]
+ALLOWED_HOSTS = ["https://watchnow-316b.onrender.com"]
 
 # Application definition
 
@@ -75,6 +71,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://localhost:5174",
     "https://watchnow-1.onrender.com",
 ]
 
@@ -94,8 +92,6 @@ TEMPLATES = [
         },
     },
 ]
-
-
 
 WSGI_APPLICATION = 'WatchNow.wsgi.application'
 

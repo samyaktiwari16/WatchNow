@@ -11,7 +11,7 @@ function Watchlist () {
   const token = localStorage.getItem("token");
   
   useEffect(() => {
-    axios.get("https://watchnow-bjw4.onrender.com/watchlist/", {
+    axios.get("https://watchnow-316b.onrender.com/watchlist/", {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -25,7 +25,7 @@ function Watchlist () {
   const removeFromWatchlist = async (movieID) => {
     const token = localStorage.getItem("token");
       await axios.delete(
-        `http://127.0.0.1:8000/remove/watchlist/${movieID}/`,
+        `https://watchnow-316b.onrender.com/remove/watchlist/${movieID}/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

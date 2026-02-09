@@ -12,7 +12,7 @@ function Profile () {
       try {
         const token = localStorage.getItem("token");
 
-        const res = await axios.get("https://watchnow-bjw4.onrender.com/profile/", {
+        const res = await axios.get("https://watchnow-316b.onrender.com/profile/", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

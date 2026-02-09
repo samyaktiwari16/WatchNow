@@ -15,7 +15,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const { data } = await axios.post("https://watchnow-bjw4.onrender.com/register/", {
+      const { data } = await axios.post("https://watchnow-316b.onrender.com/register/", {
         username,
         email,
         password,

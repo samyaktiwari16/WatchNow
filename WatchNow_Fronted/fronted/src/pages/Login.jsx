@@ -15,7 +15,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const { data } = await axios.post("https://watchnow-bjw4.onrender.com/login/", {
+      const { data } = await axios.post("https://watchnow-316b.onrender.com/login/", {
         username,
         password,
       })

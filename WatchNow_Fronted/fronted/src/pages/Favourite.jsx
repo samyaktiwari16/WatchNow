@@ -12,7 +12,7 @@ function Favourite () {
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    axios.get("https://watchnow-bjw4.onrender.com/favourite/", {
+    axios.get("https://watchnow-316b.onrender.com/favourite/", {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -24,7 +24,7 @@ function Favourite () {
     const token = localStorage.getItem("token");
 
       await axios.delete(
-        `https://watchnow-bjw4.onrender.com/remove/favourite/${movieID}/`,
+        `https://watchnow-316b.onrender.com/remove/favourite/${movieID}/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
