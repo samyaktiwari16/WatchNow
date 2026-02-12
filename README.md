@@ -5,8 +5,13 @@
 <p> Supabase is used for this application.</p>
 <p> This project has responsive design for every screen and in laptop latest screen size designs are more attractive.</p>
 
+## ✨ Glimpse of WatchNow
+<p> Click on image magic will happen</p>
+
+[![Watch Video](https://img.youtube.com/vi/yalnzSa3tbg/hqdefault.jpg)](https://www.youtube.com/watch?v=yalnzSa3tbg)
+
 ## 🛠 Tech Stack
-<p> Fronted: React, Tailwindcss</p>
+<p> Frontend: React, Tailwindcss</p>
 <p> Backend: Python, Django+DRF</p>
 <p> Database: PostgreSQL</p>
 
@@ -28,7 +33,7 @@
 <p> Raise issues and submit pull request for improvements</p>
 
 ## <h3 align="center">Watchlist </h3>
-<img width="1906" height="961" alt="Screenshot 2026-02-05 233713" src="https://github.com/user-attachments/assets/8a0e7656-1913-4896-b0e2-19396e4f2005" />
+<img width="1906" height="961" alt="Watchlist" src="https://github.com/user-attachments/assets/8a0e7656-1913-4896-b0e2-19396e4f2005" />
 
 ## <h3 align="center">SignUp </h3>
 <img width="1908" height="835" alt="Signup" src="https://github.com/user-attachments/assets/a40a6ad5-e1de-4269-a0a9-4770c1ff9a46" />
@@ -36,7 +41,9 @@
 ## <h3 align="center">SignIn </h3>
 <img width="1912" height="759" alt="SignIn" src="https://github.com/user-attachments/assets/d2f0e839-0352-47fd-bb37-d853fa009875" />
 
-## Message for Collaboration or Hiring
+## Visit on website https://watchnow-1.onrender.com
+
+## Message for Collaboration 
 <p>LinkedIn: https://www.linkedin.com/in/samyak-tiwari/</p>
 <p>Instagram: https://www.instagram.com/samyak9795tiwari/</p>
 
